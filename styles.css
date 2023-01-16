@@ -122,7 +122,7 @@ team feature---------- */
     margin-top: 287px;
     margin-right: 301px;
     margin-left: 73px;
-    margin-bottom: 332px;
+    margin-bottom: 232px;
 }
 .feature-heading{
     font-family: 'Poppins', sans-serif;
@@ -157,4 +157,89 @@ team feature---------- */
     text-align: center;
     color: #FFFFFF;
     border: none;
+}
+/* ---------------
+-----------quick style */
+.section-three{
+    display: flex;
+    margin : 100px
+}
+.quick-title{
+    width: 468px;
+    height: 106px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+.quick-para{
+    width: 586px;
+    height: 78px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+.description-box{
+    width: 586px;
+    height: 744px;
+}
+.quick-detail{
+    width: 586px;
+    height: 171px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    }
+.quick-detail p{
+    width: 514px;
+    height: 78px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+
+}
+.quick-detail h4{
+    width: 252px;
+    height: 23px;
+    padding-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+}
+.quick-image{
+    width: 708px;
+    height: 1045px;
+    margin-left: 100px;
+    background: url(./images/architect.png);
+    border-radius: 8px;
+    }
+.experience{
+    width: 250px;
+    height: 150px;
+    background: #FF900E;
+    border-radius: 8px;
+}
+.experience h2{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.experience p{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
 }
