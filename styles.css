@@ -302,3 +302,73 @@ team feature---------- */
 .animation:hover {
     background-color: #FF900E;
   }
+/* -------------
+----------Sponsors styles */
+.sponsor-header{
+    width: 527px;
+    height: 53px;
+    font-family: 'Poppins', sans-serif;
+    margin: 180px 596px 10px 797px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+.sponsor-description{
+    width: 542px;
+    height: 52px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    margin: 24px 689px 50px 690px;
+    color: #727272;
+}
+.sponsor-logo{
+    display: flex;
+    margin-left: 155px;
+    width: 153.33px;
+    height: 50px;
+    align-items:center;
+    filter: grayscale(100%);
+   -webkit-filter: grayscale(100%);
+}
+.sponsor-logo span{
+    margin-left: 155px;
+}
+/* my custom made section styles */
+form{
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
+}
+.Name-Email{
+    
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap : 20px;
+}
+.message-description{
+    background-color: #fff;
+    border: 2px solid #FF900E;
+    border-radius: 5px;
+    color: #555;
+    font-size: 12px;
+    height: 60px;
+    width: 460px;
+    text-align: center;
+    position: relative;
+}
+.name{
+    background-color: #fff;
+    border: 2px solid #FF900E;
+    border-radius: 5px;
+    color: #555;
+    font-size: 12px;
+    row
+    height: 60px;
+    width: 200px;
+    text-align: center;
+    position: relative;
