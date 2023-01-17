@@ -1,6 +1,29 @@
 /* Primary Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
-
+/* -------------------quareys here---------- */
+/*----------- Mobile Devices
+---------- */
+@media only screen and (max-width:688px){
+.{
+        width: 100%;
+}
+.nav-address{
+        flex-direction: column;
+}
+.navigation{
+    flex-direction: column;
+}
+.section-two{
+    flex-direction: column;
+}
+.interesting-facts{
+    flex-direction: column;
+}
+.sponsor-logo{
+    grid-template-columns: repeat(1, 1fr);
+}
+}
+/*------------------ nav bar here----------- */
 body{
     background-color: #ffffff9c;
 }
@@ -18,25 +41,32 @@ background: rgba(255, 144, 14, 0.1);
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 55px;
-    text-align: center;
+    font-size: 45px;
+    text-align: left;
     color: #131313;
      
 }
 .navigation{
     display: flex;
     justify-content: space-between;
+    
 }
 .nav-address{
     display: flex;
     margin-left: 20px;
     list-style: none;
+    text-decoration:none !important;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
     text-align: center;
     color: #424242;
+
+}
+.nav-address a{
+
+    text-decoration: none;
 
 }
 li{
@@ -327,13 +357,15 @@ team feature---------- */
     color: #727272;
 }
 .sponsor-logo{
-    display: flex;
-    margin-left: 155px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 30px;
     width: 153.33px;
     height: 50px;
     align-items:center;
     filter: grayscale(100%);
    -webkit-filter: grayscale(100%);
+   margin-right: 30px;
 }
 .sponsor-logo span{
     margin-left: 155px;
@@ -354,6 +386,7 @@ form{
     background-color: #fff;
     border: 2px solid #FF900E;
     border-radius: 5px;
+    margin-top: 10px;
     color: #555;
     font-size: 12px;
     height: 60px;
@@ -372,3 +405,24 @@ form{
     width: 200px;
     text-align: center;
     position: relative;
+}
+
+    /* footer styles */
+.footer{
+    width: 1440px;
+    height: 100px;
+    background: #FFF4E7;
+    border-radius: 8px;
+    margin: 130px 140px 100px 140px;
+}
+.footer p{
+    padding: 39px 410px 38px 410px;
+    font-family: 'Poppins', sans-serif;
+    width: 620px;
+    height: 23px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #424242;
+}
